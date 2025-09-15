@@ -7,9 +7,20 @@ It is intended to collect and share commonly used scripts, pipelines, and docume
 
 ## 📂 Current Contents  
 
-- **RNA-seq Processing Pipeline (EPICHIPC)**  
+### Transcriptomics  
+
+This folder contains scripts and pipelines related to transcriptomics (RNA-seq) data processing and analysis.  
+
+- **Preprocessing**  
   - `rnaseq_pipeline.sh`: Shell script documenting the RNA-seq data processing pipeline currently used for the EPICHIPC project.  
-  - Includes the major steps for preprocessing, alignment, and downstream quantification.  
+    - Includes major steps for preprocessing, alignment, and downstream quantification.  
+
+- **Analysis**  
+  - `Transcriptomics_00_pca_functions.R`: Functions for performing PCA on transcriptomics data.  
+  - `Transcriptomics_01_de_analysis_condition.R`: Script for differential expression (DE) analysis based on condition.  
 
 ---
 
+## 🚀 Future Plans  
+
+As the repository grows, it will include additional resource folders (e.g., **Metabolomics**, **Proteomics**, **Multi-omics Integration**) with standardized pipelines and functions to support PVP DMAC projects.  
